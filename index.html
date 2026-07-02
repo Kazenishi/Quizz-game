@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="screen active" id="start-screen">
+        <h1>Quiz Time!</h1>
+        <p>Test your knowledge with these fun questions</p>
+        <button id="start-btn" class="button">Start Quiz</button>
+      </div>
+
+      <div class="screen" id="quiz-screen">
+        <div class="timer-bar" id="timerBar">
+          <div class="timer-fill" id="timerFill"></div>
+        </div>
+
+        <div class="quiz-header">
+          <div id="questionBlock" class="question-block">
+            <h2 id="question-text">Question goes here</h2>
+            <div class="quiz-info">
+              <p>
+                Question <span id="current-question">1</span> of
+                <span id="total-questions">5</span>
+              </p>
+              <p class="timer" id="timerLabel">
+                <span id="time-left">15</span>s
+              </p>
+              <p>Score: <span id="score">0</span></p>
+            </div>
+
+            <div id="answers-container" class="answers-container">
+              <!-- Answer buttons are generated here -->
+            </div>
+          </div>
+        </div>
+
+        <div class="progress-bar">
+          <div class="progress" id="progress"></div>
+        </div>
+      </div>
+
+      <div class="screen result" id="result-screen">
+        <h1>Quiz Results</h1>
+        <div class="result-info">
+          <p>
+            You scored <span id="final-score">0</span> out of
+            <span id="max-score">5</span>
+          </p>
+          <div id="result-message">Good job!</div>
+        </div>
+
+        <button id="restart-btn" class="button">Restart Quiz</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
