@@ -66,6 +66,78 @@ const quizQuestions = [
       { text: "Ag", correct: false },
     ],
   },
+  {
+    question: "What is the date of Haiti independence day?",
+    answers: [
+      { text: "July 4th 1776", correct: false },
+      { text: "January 1st 1804", correct: true },
+      { text: "May 18th 1840", correct: false },
+      { text: "January 2nd 1803", correct: false },
+    ],
+  },
+  {
+    question: "Which Haitian hero led the slave revolt before independence?",
+    answers: [
+      { text: "Jean-Jacques Dessalines", correct: false },
+      { text: "Henry Christophe", correct: false },
+      { text: "Charlemagne Peralte", correct: false },
+      { text: "Toussaint Louverture", correct: true },
+    ],
+  },
+  {
+    question: "Which country is famous for the pyramids of Giza?",
+    answers: [
+      { text: "Mexico", correct: false },
+      { text: "Egypt", correct: true },
+      { text: "Paris", correct: false },
+      { text: "China", correct: false },
+    ],
+  },
+  {
+    question: "Who painted the Mona Lisa?",
+    answers: [
+      { text: "Michelangelo", correct: false },
+      { text: "Van Gogh", correct: false },
+      { text: "Leonardo Da Vinci", correct: true },
+      { text: "Raphael", correct: false },
+    ],
+  },
+  {
+    question: "What is the capital of Japan?",
+    answers: [
+      { text: "Shibuya", correct: false },
+      { text: "Tokyo", correct: true },
+      { text: "Hokkaido", correct: false },
+      { text: "Taiping", correct: false },
+    ],
+  },
+  {
+    question: "On which island is Haiti located?",
+    answers: [
+      { text: "Cuba", correct: false },
+      { text: "Jamaica", correct: false },
+      { text: "Hispaniola", correct: true },
+      { text: "Puerto Rico", correct: false },
+    ],
+  },
+  {
+    question: "Who is the most titled football player?",
+    answers: [
+      { text: "Lionel Messi", correct: true },
+      { text: "Luka Modric", correct: false },
+      { text: "Cristiano Ronaldo", correct: false },
+      { text: "Daniel Alves", correct: false },
+    ],
+  },
+  {
+    question: "Which basketball player has the most NBA rings?",
+    answers: [
+      { text: "Kobe Bryant", correct: false },
+      { text: "Bill Russel", correct: true },
+      { text: "Micheal Jordan", correct: false },
+      { text: "Wilt Chamberlain", correct: false },
+    ],
+  },
 ];
 
 // Timing config
